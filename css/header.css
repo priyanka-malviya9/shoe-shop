@@ -1,0 +1,326 @@
+
+.header_section
+ {
+	height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li  
+{
+    font-size: 1.6vw;
+    padding: 0px 15px;
+}
+.navbar li a
+{
+	color: white;
+    padding: 0px 10px;
+}
+.navbar li a:hover
+{
+    color: #f3767f;
+}
+
+.man_para h2 {
+    color: #ff4e5b;
+    font-size: 40px;
+    /* font-family: Adobe Ming Std L; */
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+
+.man_para h1 {
+
+    color: white;
+    font-size: 50px;
+    /* font-family: Adobe Ming Std L; */
+    font-family: sans-serif;
+
+}
+
+.man_para p {
+    color: white;
+    padding-top: 20px;
+}
+
+.header-BuyNow_btn {
+    font-size: 22px;
+    /* font-family: Adobe Ming Std L; */
+    font-family: sans-serif;
+border: none;
+    background-color: #ff4e5b;
+    color: #ffffff;
+    padding: 10px 35px;
+    margin-top: 20px;
+
+}
+
+.header_SeeMore_btn {
+    font-size: 22px;
+    /* font-family: Adobe Ming Std L; */
+    font-family: sans-serif;
+    border: none;
+    background-color: #ffffff;
+    color: #ff4e5b;
+    padding: 10px 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.shoes_img img {
+    height: 80vh;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+/* header section media    */
+
+@media screen and (min-width:320px) and (max-width:575px) {
+    .header_section {
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .header_logo img {
+        margin-left: 35%;
+    }
+
+    .navbar {
+        background-color: #e6555f;
+        padding-left: 15px;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    .navbar ul li {
+        font-size: 20px;
+        padding: 7px 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 0px 10px;
+    }
+
+    .man_para h2 {
+        color: #e6555f;
+        font-size: 30px;
+        /* font-family: Adobe Ming Std L; */
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 80px;
+    }
+
+    .man_para h1 {
+        color: white;
+        font-size: 35px;
+        /* font-family: Adobe Ming Std L; */
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .man_para p {
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+    }
+.btn_para
+{
+    text-align: center;
+}
+    .header-BuyNow_btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .header_SeeMore_btn {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    .shoes_img img {
+        height: auto;
+        margin-bottom: 20px;
+    padding-left: 20px;
+        
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .header_section {
+        /* height: 100vh; */
+        height: auto;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .header_logo img {
+        margin-left: 10px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+    .navbar button  
+    {
+        background-color: white;
+    }
+
+    .navbar ul {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    .navbar ul li {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 0px 10px;
+    }
+
+    .man_para h2 {
+        color: #e6555f;
+        font-size: 28px;
+        font-family: sans-serif;
+        padding-top: 30px;
+    }
+
+    .man_para h1 {
+        padding-top: 10px;
+        color: white;
+        font-size: 35px;
+        font-family: sans-serif;
+    }
+
+    .man_para p {
+        color: white;
+        text-align: justify;
+        padding-top:20px;
+    }
+
+    .header-BuyNow_btn {
+        font-size: 19px;
+        margin-top: 0px;
+        padding: 10px 15px;
+        float: left;
+    }
+
+    .header_SeeMore_btn {
+        font-size: 19px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+       
+    }
+
+     .shoes_img img {
+        padding-bottom:50px;
+    } 
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+   
+    .header_section
+    {
+        height: auto;
+    }
+    .navbar button  
+    {
+        background-color: white;
+    }
+    .navbar ul {
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+
+    .man_para h2 {
+        padding-top: 100px;
+    }
+    .header-BuyNow_btn {
+       font-size: 21px;
+        padding: 8px 32px;
+        margin-top: 20px;
+    
+    }
+    
+    
+    .header_SeeMore_btn {
+        font-size: 21px;
+        padding: 8px 32px;
+    }
+  
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .navbar ul li {
+        font-size: 1.6vw;
+        padding: 0px 12px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1199px) {
+    .man_para h2 {
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+
+    .man_para h1 {
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .man_para p {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+
+    .header_SeeMore_btn {
+        margin-left: 20px;
+
+    }
+    .shoes_img img {
+height: 85vh;
+        padding-top: 30px;
+    }
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1440px)
+ {
+    .man_para h2 {
+        padding-top: 90px;
+        padding-left: 50px;
+    }
+
+    .man_para h1 {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+
+    .man_para p {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .header_SeeMore_btn {
+        margin-left: 20px;
+
+    }
+ }
